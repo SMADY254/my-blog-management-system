@@ -1,0 +1,45 @@
+.auth-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 5px;
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-left: 100px;
+
+}
+
+.button.login-button {
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: white;
+  border:navy ;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+
+}
+
+button.login-button:hover {
+  background-color: #1e87d6;
+}
