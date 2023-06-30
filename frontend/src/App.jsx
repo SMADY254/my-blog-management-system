@@ -5,7 +5,7 @@ import Footer from "./Components/Footer"
 import Home from "./Pages/Home"
 import About from "./Pages/About"
 import Book from "./Pages/Book";
-import AuthPage from './Pages/Auth';
+import Login from './Pages/Login';
 
 const App = () => {
   return (
@@ -16,7 +16,7 @@ const App = () => {
         <Route path="/home" element={<Home />  } />
         <Route path="/about" element={<About /> } />
         <Route path="/book" element={<Book />} />
-        <Route path="/auth" element={<AuthPage />} />
+        <Route path="/login" element={<Login />} />
       </Routes>
       <Footer />
     </BrowserRouter>
